@@ -1,9 +1,9 @@
 terraform {
-    cloud {
-        organization = "personal_projects_morganevipayee"
+  cloud {
+    organization = "personal_projects_morganevipayee"
 
-        workspace {
-            name = "invoice-processing"
-        }
+    workspaces {
+      name = "invoice-processing"
     }
+  }
 }

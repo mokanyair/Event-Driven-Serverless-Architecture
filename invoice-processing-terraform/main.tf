@@ -9,9 +9,9 @@ module "sns" {
 }
 
 module "lambda" {
-  source            = "./modules/lambda"
-  project_name      = var.project_name
-  raw_bucket_arn    = module.s3.raw_bucket_arn
-  processed_bucket  = module.s3.processed_bucket_name
-  sns_topic_arn     = module.sns.topic_arn
+  source           = "./modules/lambda"
+  project_name     = var.project_name
+  raw_bucket_arn   = module.s3.raw_bucket_arn
+  processed_bucket = module.s3.processed_bucket_name
+  sns_topic_arn    = module.sns.topic_arn
 }
