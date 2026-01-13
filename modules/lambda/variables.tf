@@ -1,4 +1,12 @@
-variable "project_name" {}
-variable "raw_bucket_arn" {}
-variable "processed_bucket" {}
-variable "sns_topic_arn" {}
+variable "project_name" {
+    type        = string
+}
+variable "raw_bucket_arn" {
+    type        = string
+}
+variable "processed_bucket" {
+    type        = string
+}
+variable "sns_topic_arn" {
+    type        = string
+}
