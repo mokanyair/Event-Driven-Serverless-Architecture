@@ -8,7 +8,7 @@ resource "aws_lambda_function" "etl" {
 
   environment {
     variables = {
-      PROCESSED_BUCKET = var.processed_bucket
+      PROCESSED_BUCKET = var.processed_bucket_name
       SNS_TOPIC_ARN    = var.sns_topic_arn
     }
   }
