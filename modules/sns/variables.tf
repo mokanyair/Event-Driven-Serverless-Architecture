@@ -1,1 +1,3 @@
-variable "project_name" {}
+variable "notification_email" {
+  type = string
+}

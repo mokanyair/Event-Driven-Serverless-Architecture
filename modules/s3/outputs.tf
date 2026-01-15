@@ -7,5 +7,5 @@ output "raw_bucket_arn" {
 }
 
 output "processed_bucket_name" {
-  value = aws_s3_bucket.processed
+  value = aws_s3_bucket.processed.bucket
 }

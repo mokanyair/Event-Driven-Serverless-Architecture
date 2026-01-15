@@ -1,7 +1,7 @@
 variable "aws_region" {
-  default = "us-east-1"
+  type = string
 }
 
-variable "project_name" {
-  default = "invoice-processing"
+variable "notification_email" {
+  type = string
 }

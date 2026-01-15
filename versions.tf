@@ -1,10 +1,12 @@
-terraform {
-  required_version = ">= 1.6.0"
+#terraform {
+#  required_version = ">= 1.5"
+#
+# cloud {
+#  organization = "personal_projects_morganevipayee"
+# workspaces {
+#  name = "invoice-processing"
+#}
+#}
+#}
 
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.0"
-    }
-  }
-}
+
