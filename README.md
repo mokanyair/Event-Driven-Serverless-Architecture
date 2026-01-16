@@ -1,2 +1,3 @@
 ## Architectural describtion
-Redoployed to dev with OIDC.!
+Redoployed To dev with OIDC.!
+Fixed the trust policy!
